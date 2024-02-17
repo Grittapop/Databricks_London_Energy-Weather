@@ -18,7 +18,7 @@ dbutils.fs.ls("/")
 # COMMAND ----------
 
 # DBTITLE 1,Use dbutils to obtain Notebook parameters
-dbutils.widgets.text("name", "Shane")
+dbutils.widgets.text("name", "Stellar")
 dbutils.widgets.dropdown("country", "Thailand", ["Thailand", "Malaysia", "Indonesia"])
 
 # COMMAND ----------
@@ -38,6 +38,16 @@ dbutils.widgets.removeAll()
 # MAGIC
 # MAGIC echo "Welcome to Databricks"
 # MAGIC ls
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC select 1 As1
+
+# COMMAND ----------
+
+# MAGIC %scala
+# MAGIC println("Welcome to Databricks")
 
 # COMMAND ----------
 
