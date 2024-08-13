@@ -38,17 +38,25 @@ DataBricks is an enterprise cloud platform that provides a collaborative environ
 ### 4. Set Up Databricks
 
 1. Visit Databricks Website:
-    - Go to [Databricks AWS Product Page](databricks.com/product/aws) and click on "**Get started**."
+    - Go to [Databricks AWS Product Page](https://www.databricks.com/product/aws) and click on "**Try Databricks**."
+
+      ![Screenshot 2024-08-14 010630](https://github.com/user-attachments/assets/d531e008-e24b-40cb-9847-f45ab14974ad)
 
 2. Sign Up for a Free Trial:
     - Fill out the registration form.
-    - You will receive a 14-day free trial.
 
+      ![Screenshot 2024-08-14 011243](https://github.com/user-attachments/assets/e9459fee-c5e1-4601-946f-35139db9ff93)
+
+    - You will receive a 14-day free trial.
+      
 3. Email Verification:
     - Check your email for a verification link.
     - Click the link, select the "**Premium Tier**," and provide a name for your Databricks Workspace.
     - Click "**Start quickstart**."
 
+    ![Screenshot 2024-08-14 012250](https://github.com/user-attachments/assets/590491d5-f209-4dda-bcaf-40e854580c1d)
+
+    
 ### 5. Configure Databricks on AWS
 
 1. Access AWS Formalon:
@@ -73,8 +81,14 @@ DataBricks is an enterprise cloud platform that provides a collaborative environ
 
 1. Create and Start Cluster:
     - Go to the Databricks workspace and create a new cluster if one is not already available.
-    - Start the cluster.
-    
+    - Navigate to **Compute** -> **Create compute**
+
+      ![Screenshot 2024-02-17 210922](https://github.com/user-attachments/assets/75bee505-d334-41df-99f0-7ac3bcb9d9c7)
+
+    - **Create cluster**.
+      
+      ![Screenshot 2024-02-17 211828](https://github.com/user-attachments/assets/ab3353fa-6d5b-4af7-ae57-477afe9cda55)
+
 ### 8. Import Files into Databricks
 
 1. Upload Files:
@@ -99,5 +113,12 @@ DataBricks is an enterprise cloud platform that provides a collaborative environ
     - Navigate to **Workflows** -> **Create job**.
     - Name your task and select the workspace.
 
+      ![Screenshot 2024-02-18 013914](https://github.com/user-attachments/assets/138ad7e0-9c84-422d-9314-d536dde0d83b)
+
+
+      ![Screenshot 2024-02-18 014035](https://github.com/user-attachments/assets/8081f743-b7bb-4be9-8ae2-02a16e098a6e)
+
+
+      
 
 Follow these steps carefully to configure and use your Databricks environment effectively. If you encounter any issues, consult the Databricks documentation or support for further assistance.
